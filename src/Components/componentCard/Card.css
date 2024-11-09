@@ -1,0 +1,12 @@
+.item{
+    width: 500px;
+    height: auto;
+    display: inline;
+}
+
+.cont-card{
+    background-color: aquamarine;
+    width: 100wh;
+    height: auto;
+    
+}
