@@ -1,0 +1,43 @@
+.typ_inpot{
+    padding: 40px 0px 10px 0px;
+
+}
+.fild{
+    width: 94%;
+    height: 40px;
+}
+.but{
+    padding: 20px;
+}
+/* مخفی کردن ورودی فایل اصلی */
+.inputfile {
+    display: none; /* مخفی کردن ورودی فایل اصلی */
+}
+
+/* استایل برای دکمه‌ای که ورودی فایل را شبیه‌سازی می‌کند */
+.inputfile-label {
+    width: 85%;
+    height: 30px;
+    
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50; /* رنگ پس‌زمینه سبز */
+    color: white; /* رنگ متن سفید */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px; /* گوشه‌های گرد */
+    cursor: pointer; /* نشانگر به شکل دست */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* انیمیشن برای تغییر رنگ و سایز */
+    text-align: center;
+}
+
+/* تغییر رنگ و انیمیشن در هنگام hover */
+.inputfile-label:hover {
+    background-color: #45a049; /* تغییر رنگ پس‌زمینه */
+    transform: scale(1.05); /* بزرگ‌تر شدن دکمه */
+}
+
+/* تغییر رنگ در هنگام فشردن دکمه */
+.inputfile-label:active {
+    background-color: #388e3c; /* رنگ پس‌زمینه هنگام فشردن */
+}

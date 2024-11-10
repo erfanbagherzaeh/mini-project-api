@@ -1,12 +1,35 @@
-.item{
+
+/* .cont-card{
     width: 500px;
     height: auto;
     display: inline;
+    background-color: blue;
+    
+}  */
+.cont-card {
+     
+    display: ruby;
+    flex-wrap: wrap;
+    justify-content: center; /* چیدمان کارت‌ها به صورت افقی مرکز شود */
+    align-items: flex-start; /* کارت‌ها از بالای صفحه شروع به قرار گرفتن کنند */
+    gap: 16px; /* فاصله بین کارت‌ها */
+    margin-left: 80px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
-.cont-card{
-    background-color: aquamarine;
-    width: 100wh;
-    height: auto;
-    
+.item {
+    flex: 1 1 300px; /* کارت‌ها حداقل 300 پیکسل عرض دارند و با تغییر اندازه صفحه عرضشان تغییر می‌کند */
+    max-width: 345px;
+    margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+    .item {
+        flex: 1 1 100%; /* کارت‌ها به صورت تمام عرض در سایز کوچک‌تر نمایش داده می‌شوند */
+    }
+}
+
+
+  
